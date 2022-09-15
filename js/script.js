@@ -1,3 +1,7 @@
+/* let number = 5;
+const leftBorderWidht = 5;
+number = 10;
+console.log(number); */
 "use strict";
 
 const numberOfFilms = +prompt("How many films you watch?", '');

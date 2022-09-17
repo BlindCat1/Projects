@@ -1,20 +1,23 @@
+/* let number = 5;
+const leftBorderWidht = 5;
+number = 10;
+console.log(number); */
 "use strict";
 
-const numberOfFilms = prompt("How many filmf you waching?", '');
+const numberOfFilms = +prompt("How many films you watch?", '');
 
-let personalMovieDB = {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
     geners: [],
-    private: false
+    privat: false
 };
 
-
-let a = prompt("last film what you wachin?", '');
-let b = prompt("What you think about it?", '');
-let c = prompt("last film what you wachin?", '');
-let d = prompt("What you think about it?", '');
+const a = prompt('один из последних просмотренных фильмов', ''),
+      b = prompt('оценка', ''),
+      c = prompt('один из последних просмотренных фильмов', ''),
+      d = prompt('оценка', '');
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;

@@ -1,8 +1,8 @@
 "use strict";
 
-const numberOfFilms = prompt("How many filmf you waching?", '');
+const numberOfFilms = +prompt("How many filmf you waching?", '');
 
-let personalMovieDB = {
+const personalMovieDB = {
     count: numberOfFilms,
     movies: {},
     actors: {},
@@ -11,10 +11,10 @@ let personalMovieDB = {
 };
 
 
-let a = prompt("last film what you wachin?", '');
-let b = prompt("What you think about it?", '');
-let c = prompt("last film what you wachin?", '');
-let d = prompt("What you think about it?", '');
+const a = prompt("last film what you wachin?", ''),
+      b = prompt("What you think about it?", ''),
+      c = prompt("last film what you wachin?", ''),
+      d = prompt("What you think about it?", '');
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;

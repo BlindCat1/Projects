@@ -1,25 +1,50 @@
-/* let number = 5;
-const leftBorderWidht = 5;
-number = 10;
-console.log(number); */
-"use strict";
 
-const numberOfFilms = +prompt("How many films you watch?", '');
+//Место для первой задачи
+// function firstTask() {
+//     // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//     const arr = [3, 5, 8, 16, 20, 23, 50];
+//     const result = [];
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    geners: [],
-    privat: false
-};
+//     // Пишем решение вот тут
+//     for ( let i = 0; i < arr.length; i++){
+//         result[i] = arr[i];
+//     }
+//     console.log('result = ' + result);
+//     // Не трогаем
+//     return result;
+// }
 
-const a = prompt('один из последних просмотренных фильмов', ''),
-      b = prompt('оценка', ''),
-      c = prompt('один из последних просмотренных фильмов', ''),
-      d = prompt('оценка', '');
+//Место для второй задачи
+// function secondTask() {
+//     // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+//     const data = [5, 10, 'Shopping', 20, 'Homework'];
+//     // Пишем решение вот тут
+//     for(let i = 0; i < data.length; i++){
+//         let typeDateI = typeof data[i];
+//         if (typeDateI == "number"){
+//             typeDateI * 2;
+//             data[i] = typeDateI;
+//         } else if (typeDateI == "string"){
+//             typeDateI + " - done";
+//             data[i] = typeDateI;
+//         }
+//     }
+//     console.log(data);
+//     // Не трогаем
+//     return data;
+// }
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// Место для третьей задачи
+function thirdTask() {
+    // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+    const data = [5, 10, 'Shopping', 20, 'Homework'];
+    const result = [];
 
-console.log(personalMovieDB);
+    // Пишем решение вот тут
+    for (let i = 0; i < data.length; i++){
+        result[i] = `$data[length-1]`;
+    }
+    console.log(result);
+    // Не трогаем
+    return result;
+}
